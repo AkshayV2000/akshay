@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ern{
+            background-color: hotpink;
+            border: 3px red solid;
+            height: 100vh;
+            color: blue;
+            display: grid;
+            /* grid-template-columns: 400px 100px 350px 150px; */
+            /* grid-template-columns: auto 200px auto; */
+            /* grid-template-columns: 1fr 2fr 1fr ; */
+            /* grid-template-columns: repeat(5,1fr 2fr 3fr); */
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 200px 50px; */
+            gap: 30px;
+        }
+        .ern div{
+            background-color: cyan;
+            border: 4px green solid;
+        }
+        .ran{
+            /* grid-column: 1/3;
+            grid-row-start:1 ;
+            grid-row-end:3 ; */
+            grid-column-start: 2;
+            grid-column-end: span 3;
+            grid-row-start: 1;
+            grid-row-end: span 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>GRId</h1>
+    <div class="ern">
+        <div class="ran">emo</div>
+        <!-- <div class="yen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi vero illum veniam. Expedita quod explicabo maxime consequatur reiciendis, cumque voluptates. Saepe mollitia itaque commodi quis repellendus debitis ex ipsa molestias, nesciunt soluta nulla illum, sapiente, dicta a. Veritatis, rem? Tenetur id numquam magni non error, maiores a nesciunt veritatis tempore mollitia inventore voluptatum accusantium distinctio magnam porro sint molestias vel quae in harum quibusdam quaerat dolore architecto ipsam. Sint necessitatibus facere deleniti cupiditate deserunt harum obcaecati in eaque commodi, qui vero mollitia omnis quis blanditiis nemo tempora enim recusandae nam laudantium voluptatem! Sed impedit aperiam, obcaecati fugit at dignissimos quas eaque sit nam ratione sint culpa reiciendis veritatis eveniet nemo libero est non error praesentium dolore saepe quam, iste similique. Maiores ut nesciunt cum autem laudantium dignissimos vero ullam adipisci perferendis exercitationem eaque quam eveniet assumenda nulla id earum ipsam voluptates libero modi ab architecto, quae repudiandae dolorem tempora? Molestiae a est quibusdam, repudiandae totam illum enim molestias. Minima odit facilis at consequatur quam facere molestiae dolor commodi doloribus cum! Error aut maiores adipisci ut illo. Nostrum aperiam deleniti expedita sit facilis veniam saepe debitis exercitationem eligendi similique alias quasi esse cupiditate itaque maiores, necessitatibus velit tempore doloremque voluptatum.</div> -->
+        <div class="max">hallo</div>
+        <div class="wed">Lorem, ipsum dolor.</div>
+        <div class="tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat obcaecati asperiores?</div>
+        <div class="neo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae omnis similique adipisci error veritatis ullam beatae et tempore numquam?</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin:auto;">
+    <div style="background-color:blue; height: 150px; padding-left: 700px; color: bisque;"> 
+        <img src="" alt="">
+        <a href="">
+            <label for="">PROGRAM
+                <select name="" id=""></select>
+            </label>
+        </a>&nbsp;&nbsp;&nbsp;
+        <a href="">PLACEMENT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="{% url 'aboutus'%}">ABOUT US</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><input type="buttun" value="ENQUIRY" style="background-color:red ;"></a>
+
+    </div>
+    <div>
+
+       {% block content %}
+
+       {% endblock %}
+
+    </div>
+    <table style=" background-color:black; width: 100%; height: 300px; color: white;">
+        <tr>
+            <td>About us</td>
+            <td>Company</td>
+            <td>Course</td>
+            <td>Contact</td>
+        </tr>
+        <tr>
+            <td rowspan="5" width="30%">Baabtra, the best software training company in Calicut has proved its expertise by training and placing several hundreds of students both in MNC’s like UST Global, Infosys, Oracle etc and SME’s like Nucore Software Solutions, Sesame, IOSS, ULTS.</td>
+            <td>About us</td>
+            <td>python</td>
+            <td>1234567891</td>
+        </tr>
+        <tr>
+            <td>Placement</td>
+            <td>Flutter</td>
+            <td>jsafbghg@gsgfh</td>
+        </tr>
+        <tr>
+            <td>Testimonials</td>
+            <td>Angular</td>
+            <td rowspan="2" width="30%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis minima sequi aspernatur odio sapiente possimus?</td>
+        </tr>
+        <tr>
+            <td>Gallary</td>
+            <td>Php</td>
+        </tr>
+        <tr>
+            <td>Contact us</td>
+        </tr>
+        
+
+    </table>
+</body>
+</html>
