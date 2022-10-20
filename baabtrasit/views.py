@@ -45,3 +45,10 @@ def baab(request):
 def btsp(request):
     return render(request,'baabtrasit/bootstp.html')
 
+
+def gitt(request):
+    return render(request'baabtrasit/gitfile.html')
+
+
+def akv(request):
+    return render(request,'baabtrasit/akv.html')    

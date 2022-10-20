@@ -14,5 +14,7 @@ urlpatterns=[
     path('ndiv',views.ned),
     path('baabtrasyte',views.baab),
     path('boot',views.btsp),
+    path('gited',views.gitt),
+    path('akshay',views,akv),
 
 ]
